@@ -1,0 +1,255 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-app-region: none;
+  }
+  
+  body{
+    background-color: burlywood;
+    display: grid;
+    place-content: center;
+    font-family: "Helvetica";
+    height: 100vh;
+    color: white;
+  }
+
+  .container1{
+    height: 85vh;
+    width: 140vh;
+    background-color: rgb(28, 28, 28);
+  /* border-radius: 1rem; */
+  padding: 1rem;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50,50,50,0.75);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(50,50,50,0.75);
+    box-shadow: 7px 7px 5px 0px rgba(50,50,50,0.75);
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    border-color: white;
+    color: white;
+  }
+
+  .container1 p{
+    font-size: 25px;
+  }
+
+  .dottedbox{
+    border-style: dotted;
+    width: 377px;
+    padding: 20px;
+    font-size: 18px;
+    height: 167px;
+  }
+
+  .radioBtn{
+    margin: 10px;
+    margin-left: 0;
+  }
+
+  .dottedbox span{
+    font-size: 18px;
+  }
+
+  .dottedbox p{
+    font-size: 18px;
+  }
+
+  .red-asterisk {
+    color: red;
+}
+
+.left{
+width: 400px;
+}
+
+.opl{
+    font-size: 15px;
+    filter: brightness(70%);
+}
+
+  .wrapper1{
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+    column-gap: 5px;
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+
+  .desc-input{
+    height: 330px;
+    width: 377px;
+  }
+
+
+
+  .email-input{
+    width: 377px;
+  }
+
+  .form__input{
+    margin-right: 20px;
+    color: white;
+  }
+
+  .form--hidden{
+    display: none;
+}
+
+.form > *:first-child{
+    margin-top: 0;
+}
+
+.form > *:last-child{
+    margin-bottom: 0;
+}
+
+.form__title{
+    margin-bottom: 2rem;
+    text-align: center;
+    color: black;
+}
+
+.form__message{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form__message-success{
+    color:  #4bb544;
+}
+
+.form__message-error{
+    color:  #cc3333;
+}
+
+.form__input-group{
+    margin-bottom: 1rem;
+}
+
+.form__input{
+    /* display: block; */
+    /* width: 100%; */
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid white;
+    outline: none;
+    background: rgb(28, 28, 28);
+    transition: background 0.2s,border-color 0.2s;
+}
+
+.form__input:focus{
+    border-color: orange;
+    /* background: #FFFFFF; */
+}
+
+.form__input::placeholder{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.form__input--error{
+    color: #cc3333;
+    border-color: #cc3333;
+}
+
+.form__input--error-message{
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: #cc3333;
+}
+
+.close {
+    position: relative;
+    /* right: px; */
+    /* top: 45px; */
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+    color: white;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    /* right: 15px; */
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: white;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+
+  /* .orange{
+    background-color: rgb(255, 149, 0);
+  } */
+
+  .btn1{
+    display: grid;
+    background-color: rgb(255, 149, 0);
+    place-content: center;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    font-weight: 50;
+    width: 150px;
+    margin-left: 227px;
+    height: 40px;
+    font-size: 20px
+  }
+
+  .btn1.disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+
+  .SupportText{
+    color: rgb(255, 149, 0);
+    text-align: center;
+  }
+
+  .ticket{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    opacity: 0.6;
+  }
+
+  .SupportTicket{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* display: grid; 
+    place-items: center;  */
+  }
+
+  .container2{
+    height: 85vh;
+    width: 140vh;
+    background-color: rgb(28, 28, 28);
+  /* border-radius: 1rem; */
+    padding: 1rem;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50,50,50,0.75);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(50,50,50,0.75);
+    box-shadow: 7px 7px 5px 0px rgba(50,50,50,0.75);
+  }
+  
+
